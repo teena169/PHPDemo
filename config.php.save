@@ -1,0 +1,16 @@
+$connection = new MongoClient();
+
+/**
+ * Select database named "test"
+ */ 
+$db = $connection->test;
+?><?php
+
+
+require_once __DIR__ . "/vendor/autoload.php";
+
+
+$collection = (new MongoDB\Client)->Customer;
+
+
+?>
